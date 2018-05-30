@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,39 +8,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="assets/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body style= "background-image: url('assets/images/shattered.png')">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body style="background-image: url('assets/images/shattered.png')">
     <div class="header">
         <div class="headercontent clearfix">
             <div class="name">Mark Polichette</div>
             <div class="links">
-                <a href="index.html">About</a>|
-                <a href="portfolio.html">Portfolio</a>|
-                <a class="active" href="contact.html">Contact</a>
+                <a class="navbar" href="index.html">About</a>|
+                <a class="navbar" href="portfolio.html">Portfolio</a>|
+                <a class="navbar active" href="contact.html">Contact</a>
             </div>
         </div>
     </div>
     <div class="content">
-            <h2> Contact Me </h2>
-            <hr>
-            <form action="">
-                <!-- NEED TO INSERT AN ACTION! -->
-                <!-- NEED to set message feild width to 100% and alter height-->
-                Name:<br>
-                <input type="text" name="Name" value="John Smith">
-                <br>
-                Email:<br>
-                <input type="text" name="Email" value="example@email.com">
-                <br>
-                Message:<br>
-                <input type="text" name="Message" value="">
-                <br><br>
-                <input type="submit" value="Submit">
-            </form> 
+        <h2> Contact Me </h2>
+        <hr>
+        <form action="">
+            <!-- NEED TO INSERT AN ACTION! -->
+            <!-- NEED to set message feild width to 100% and alter height-->
+            Name:
+            <br>
+            <input type="text" name="Name" value="John Smith">
+            <br> Email:
+            <br>
+            <input type="text" name="Email" value="example@email.com">
+            <br> Message:
+            <br>
+            <input type="text" name="Message" value="">
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
 
     </div>
     <footer class="pagebottom">
-            <p>Copyright &#169</p>
-        </footer>
+
+        <div class="bottom-center">
+            <div class="bottom-name">Mark Polichette</div>
+            <div class="bottom-nav">
+
+                <a href="http://MCPolichette.github.io">
+                    <i id="social-git" class="fa fa-github-square fa-3x social"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mark-polichette/">
+                    <i id="social-linked" class="fa fa-linkedin-square fa-3x social"></i>
+                </a>
+                <a href="mailto:Mark@Polichette.com">
+                    <i id="social-email" class="fa fa-envelope-square fa-3x social"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
